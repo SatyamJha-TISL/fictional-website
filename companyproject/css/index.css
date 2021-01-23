@@ -40,7 +40,7 @@ nav h1{
     box-shadow: 0 4px 8px rgba(0,0,0,0.38);
     background: #0065fd;
     color: #fff;
-   transform : translateX(-0.2rem) ;    
+   transform : translateX(-0.8rem) ;    
     transition: all .4s ease;
     z-index: 1;
 }
