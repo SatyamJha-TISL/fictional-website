@@ -41,12 +41,17 @@ nav h1{
     color: #fff;
 }
  .link:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.38);
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.38);
     background: #fa8142;
     color: #fff;
     font-size: 21px;
-    transform: translateY(-2px) ;
-    transition: background .4s ease;
+    transition: background .4s ease; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.38);
+    background: #0666f7;
+    color: #fff;
+    /* font-size: 25px; */
+    transform: translateX(-12px) ;
+    transition: all .4s ease;
 }
 
 .home{
