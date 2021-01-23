@@ -8,8 +8,8 @@ body {
     background-color:#12181b;
     color: rgb(223, 247, 240);
     font-family: 'Open sans' , sans-serif;
-}
 
+}
 nav {
     height: 15vh;
     display: flex;
@@ -32,21 +32,17 @@ nav h1{
     transition: all 0.3s ease-in-out;    
 }
 .link a {
+    display: block;
     text-decoration: none;
     color: #fff;
 }
  .link:hover {
-    /* box-shadow: 0 4px 8px rgba(0,0,0,0.38);
-    background: #fa8142;
-    color: #fff;
-    font-size: 21px;
-    transition: background .4s ease; */
     box-shadow: 0 4px 8px rgba(0,0,0,0.38);
-    background: #0666f7;
+    background: #0065fd;
     color: #fff;
-    /* font-size: 25px; */
-    transform: translateX(-12px) ;
+   transform : translateX(-0.2rem) ;    
     transition: all .4s ease;
+    z-index: 1;
 }
 .home {
     position :relative;
@@ -55,7 +51,7 @@ ul.submenu {
     list-style-type: none;
     position: absolute;
     top: -400%;
-     left: -5%;
+    left: -5%;
     
 }
 ul.submenu li {
@@ -67,8 +63,10 @@ ul.submenu li {
     
 }
 ul.submenu li:hover {
-    background-color: #fa8142;
+    background-color: #0065fd;
+
 }
+
 
 @keyframes move {
     from {
@@ -80,10 +78,10 @@ ul.submenu li:hover {
         transform: translateX(0px);
     }
 }
-
 .nav_active {
     transform: translateY(180%) ;
-    z-index: 1;
+    z-index: 5;
+   
 }
 
 .carousel-cell {
@@ -109,7 +107,6 @@ div.intro {
     margin: 4rem;
 
 }
-
 div.work-details {
     margin :10vh auto ;
     display: flex;
@@ -143,8 +140,8 @@ img.resize {
     margin-top: 1rem;
     border-radius: 5px;
     border: none ;
-    background: rgba(255, 255, 255, 0.529);
-    color: #064af7; 
+    background: #006eff;
+    color: white; 
     padding: 0.25rem 1rem;
     font-size: 1.15rem;
     cursor: pointer; 
@@ -160,9 +157,9 @@ img.resize {
 }
 .card button:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.38);
-    background: #068ff7;
+    background: #063ef7;
     color: #fff;
-    font-size: 25px;
+    /* font-size: 25px; */
     transform: translateX(-12px) ;
     transition: all .4s ease;
 }
